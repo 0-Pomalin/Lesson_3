@@ -5,23 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+
   <title>Lesson_3</title>
 </head>
 
 <body>
   <header>
     <div id="top">
-      <h1> Гнучка методологія розробки “Scrum” </h1>
+      <h1 class="main-title"> Гнучка методологія розробки “Scrum” </h1>
     </div>
 
     <!-- Зміст -->
-    <h2>Зміст</h2>
+    <h2 class="title">Зміст</h2>
     <div>
-      <ol>
+      <ol class="list">
         <li>
           <a href="#entry">Вступ</a>
         </li>
-        <li>
+        <li class="image">
           <a href="#scrum-scheme">Зображення схеми Scrum</a>
         </li>
         <li>
@@ -30,7 +32,7 @@
         <li>
           <a href="#process">Процес Scrum</a>
         </li>
-        <li>
+        <li class="image">
           <a href="#process-image">Схематичне зображення процесу</a>
         </li>
         <li>
@@ -76,30 +78,30 @@
       <img src="./img/img_01.png" alt="зображення схеми Scrum">
     </div>
 
-    <h2 id="roles">Ролі у Scrum</h2>
-    <div>
+    <h2 id="roles" class="title">Ролі у Scrum</h2>
+    <div class="text">
       <p>
         У класичному Scrum існує 3 базові ролі:
       </p>
-      <ul>
-        <li>Product owner </li>
+      <ul class="list">
+        <li class="list item">Product owner </li>
         <li>Scrum master</li>
         <li>Команда розробки (Development team)</li>
       </ul>
+      <div>
+        <p>
+          Product owner (PO) є сполучною ланкою між командою розробки та замовником. Завдання PO — максимальне
+          збільшення
+          цінності продукту, що розробляється, і роботи команди.
+        </p>
+        <p>
+          Одним із основних інструментів PO є Product Backlog. Product Backlog містить необхідні для виконання робочі
+          завдання (такі як Story, Bug, Task та ін.), відсортовані як пріоритет (терміновості).
+        </p>
+      </div>
       <p>
-        Product owner (PO) є сполучною ланкою між командою розробки та замовником. Завдання PO — максимальне збільшення
-        цінності продукту, що розробляється, і роботи команди.
-      </p>
-      <p>
-        Одним із основних інструментів PO є Product Backlog. Product Backlog містить необхідні для виконання робочі
-        завдання (такі як Story, Bug, Task та ін.), відсортовані як пріоритет (терміновості).
-      </p>
-      <p>
-        Scrum master (SM) є службовцем лідером (англ. servant-leader). Завдання Scrum Master — допомогти команді
-        максимізувати її ефективність усунення перешкод, допомоги, навчання та мотивації команді, допомоги PO
-      </p>
-      <p>
-        Команда розробки (Development team, DT) складається з фахівців, які виконують безпосередню роботу над продуктом,
+        Команда розробки (Development team, DT) складається з фахівців, які виконують безпосередню роботу над
+        продуктом,
         що виробляється. Згідно The Scrum Guide (документу, що є офіційним описом Scrum від його авторів), DT повинні
         мати такі якості та характеристики:
       </p>
@@ -116,8 +118,13 @@
         можливої відсутності необхідних навичок) та зменшують розмір роботи, який команда може виконати в одиницю часу.
       </p>
     </div>
+    <p>
+      Scrum master (SM) є службовцем лідером (англ. servant-leader). Завдання Scrum Master — допомогти команді
+      максимізувати її ефективність усунення перешкод, допомоги, навчання та мотивації команді, допомоги PO
+    </p>
 
-    <h2 id="process">Процес Scrum</h2>
+
+    <h2 id="process" class="title">Процес Scrum</h2>
     <div>
       <p>
         Основою Scrum є Sprint, протягом якого виконується робота над продуктом. Після закінчення Sprint має бути
@@ -145,13 +152,13 @@
 
     <!-- Схематичне зображення процесу наведено на наступному малюнку -->
     <div id="process-image">
-      <p>
+      <span>
         Схематичне зображення процесу наведено на наступному малюнку:
-      </p>
+      </span>
       <img src="./img/img_02.png" alt="Схематичне зображення процесу">
     </div>
 
-    <h2 id="features">Важливі особливості, що часто забуваються</h2>
+    <h2 id="features" class="title">Важливі особливості, що часто забуваються</h2>
     <div>
       <p>
         Часто можна почути, що Scrum не працює або працює гірше, ніж очікувалося. Необхідно зауважити, що найчастіше так
@@ -176,7 +183,7 @@
       </ol>
     </div>
 
-    <h2 id="advantages-and-disadvantages">Достоїнства і недоліки</h2>
+    <h2 id="advantages-and-disadvantages" class="title">Достоїнства і недоліки</h2>
     <div>
       <p>
         Scrum має досить привабливі переваги. Scrum орієнтований на клієнта, адаптивний. Scrum дає клієнту можливість
@@ -221,7 +228,7 @@
     <div id="video-kanban">
       <p>Крім Scrum я рекомендую звернути увагу на Канбан. У цьому відео невеликий огляд методу Канбан:</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/c1Vl7geFjl0" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
   </main>

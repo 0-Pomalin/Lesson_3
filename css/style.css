@@ -1,0 +1,60 @@
+/* * {
+  color: tomato;
+} */
+
+.main-title {
+  color: tomato;
+}
+
+.title {
+  color: green;
+}
+
+.main-title,
+.title {
+  text-align: center;
+}
+
+div {
+  color: indigo;
+}
+
+a {
+  color: orangered;
+}
+
+#top {
+  background-color: rgb(172, 203, 228);
+}
+
+ul.list {
+  color: chocolate;
+}
+
+.list.item {
+  color: crimson;
+}
+
+.list .image {
+  color: aqua;
+}
+
+.text p {
+  color: cornflowerblue;
+}
+
+/* .text * {
+  color: red;
+} */
+
+/* .text > p {
+  color: cornflowerblue;
+} */
+
+/* .text ~ p {
+  color: cornflowerblue;
+} */
+
+/* .text + p {
+  color: cornflowerblue;
+} */
